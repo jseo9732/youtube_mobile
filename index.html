@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>YouTube_M</title>
+    <script src = "main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <i class="fab fa-youtube"></i>
+        <span class="title">Youtube</span>
+      </div>
+      <div class="icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+    </header>
+
+    <div class="playerAndinfoAndUpNext">
+      <div class="playerAndinfo">
+        <!-- Video Player -->
+        <section class="player">
+        <video autoplay controls src="video/깜찍이.mp4"></video>
+      </section>
+
+        <!-- info -->
+        <section class="info">
+        <!-- metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#깜찍이</li>
+            <li>#재우</li>
+            <li>#귀요미</li>
+          </ul>
+          <div class="titleAndBtn">
+            <span class="title clamp">깜찍이 | 오른쪽 화살표를 누르면 제목이 더 많이 보입니다. 화면 창을 크게 늘리면 다음 동영상이 오른쪽으로 옮겨져요</span>
+            <button class="morebtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
+          <span class="views">조회수 92만</span>
+        </div>
+        <!-- actions -->
+        <ul class="actions">
+          <li><button class="active"><i class=" fas fa-thumbs-up"></i><span>4.7천</span></button></li>
+          <li><button><i class="fas fa-thumbs-down"></i><span>1</span></button></li>
+          <li><button><i class="fas fa-share"></i><span></span>공유</button></li>
+          <li><button><i class="fas fa-file-download"></i><span>저장</span></button></li>
+          <li><button><i class="fas fa-flag"></i><span></span>신고</button></li>
+        </ul>
+        <!-- channel 정보-->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image\째우.jpg" alt="">
+            <div class="info">
+              <span class="name">깜찍이 재우</span>
+              <span class="subscribers">구독자 101만</span>
+            </div>
+          </div>
+          <div class="subscribe">
+            <button class="subscribe_btn">구독</button>
+          </div>
+        </div>
+
+        <!-- 댓글-->
+        <div class="comments">
+          <button class="comments_btn"><div><span>댓글 · 666개</span><i class="fas fa-sort"></i></div></button>
+        </div>
+      </section>
+      </div>
+      <!-- 다음 동영상 -->
+      <section class="upNext">
+        <span class="upnt">다음 동영상</span>
+        <ul>
+          <li class="ntvp">
+            <a href="https://m.youtube.com/watch?v=cfxCS8wuy-k"><img class="some" src="image\다음1.jpg" alt=""></a>
+            <div class="info">
+              <img class="avar" src="image\1워크맨.jpg">
+              <span class="info_in">
+                <span class="title">💸존리 부자되고 싶은 주린이들 주목💸 인생 한방 여기있다🙌 | 투자 | 주식 | 펀드 | 펀드매니저 직업리뷰 | 워크맨 ep.92</span>
+                <span class="nameAndviews">워크맨-Workman · 조회수 102만회</span>
+              </span>
+              <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </div>
+          </li>
+          <li class="ntvp">
+            <a href="https://m.youtube.com/watch?v=SF4PP-7iv84"><img class="some" src="image\다음2.jpg" alt="">
+            <div class="info"></a>
+              <img class="avar" src="image\2폴킴.jpg">
+              <span class="info_in">
+                <span class="title">폴킴 (Paul Kim) - 커피한잔할래요 (원곡 되찾기 라이브) (with 최준)</span>
+                <span class="nameAndviews">폴킴-Paul Kim Official · 조회수 77만회</span>
+              </span>
+              <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </div>
+          </li>
+          <li class="ntvp">
+            <a href="https://m.youtube.com/watch?v=i-m_AEElPw4&t=3s"><img class="some" src="image\다음3.jpg" alt=""></a>
+            <div class="info">
+              <img class="avar" src="image\3권혁수감성.jpg">
+              <span class="info_in">
+                <span class="title">[Roleplay] 네일샵에서 애드리브 싸이퍼 (feat. 네이처 소희)</span>
+                <span class="nameAndviews">권혁수감성 · 조회수 279만회</span>
+              </span>
+              <button class="morebtn"><i class="fas fa-ellipsis-v"></i></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
