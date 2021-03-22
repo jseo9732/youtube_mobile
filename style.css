@@ -139,10 +139,10 @@ overflow: hidden;
 .info .actions button span{
   margin: auto;
 }
-
+/*
 .info .actions button.active{
   color: var(--blue-color);
-}
+}*/
 
 .info .channel {
   padding-left: var(--padding);

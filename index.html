@@ -46,10 +46,14 @@
         </div>
         <!-- actions -->
         <ul class="actions">
-          <li><button class="active"><i class=" fas fa-thumbs-up"></i><span>4.7천</span></button></li>
-          <li><button><i class="fas fa-thumbs-down"></i><span>1</span></button></li>
+          <li><button id = "likebtn" value="unlike" onclick="
+            likebtnColor(this);"><i class=" fas fa-thumbs-up"></i><span>4.7천</span></button></li>
+          <li><button id = "hatebtn" value="unhate" onclick="
+            hatebtnColor(this);"><i class="fas fa-thumbs-down"></i><span>1</span></button></li>
           <li><button><i class="fas fa-share"></i><span></span>공유</button></li>
+
           <li><button><i class="fas fa-file-download"></i><span>저장</span></button></li>
+
           <li><button><i class="fas fa-flag"></i><span></span>신고</button></li>
         </ul>
         <!-- channel 정보-->
